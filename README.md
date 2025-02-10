@@ -1,4 +1,4 @@
-![light_theme_collage_expanded](https://github.com/user-attachments/assets/18c88fbb-0562-42f4-99d3-ab9d1bf1d388)#   Currency Converter - Flutter App
+#   Currency Converter - Flutter App
 
 A simple and efficient Currency Converter App built using Flutter. It allows users to convert between different currencies with real-time exchange rates and view historical trends through a graph.
 
