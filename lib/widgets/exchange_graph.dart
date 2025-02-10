@@ -75,7 +75,7 @@ class ExchangeGraph extends StatelessWidget {
                 reservedSize: 40,
                 getTitlesWidget: (value, meta) => Text(
                   value.toStringAsFixed(1),
-                  style: TextStyle(fontSize: 12, color: Colors.black),
+                  style: TextStyle(fontSize: 12, color: Theme.of(context).colorScheme.onSecondary),
                 ),
               ),
             ),
