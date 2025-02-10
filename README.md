@@ -1,16 +1,34 @@
-# currencyconverter
+![light_theme_collage_expanded](https://github.com/user-attachments/assets/18c88fbb-0562-42f4-99d3-ab9d1bf1d388)#   Currency Converter - Flutter App
 
-A new Flutter project.
+A simple and efficient Currency Converter App built using Flutter. It allows users to convert between different currencies with real-time exchange rates and view historical trends through a graph.
+
+![App Screenshot](screenshots/light_theme_collage_expanded.png)
+
+![App Screenshot](screenshots/dark_theme_collage_expanded.png)
+
+## Features
+
+- Convert currencies by selecting source and target currencies  
+- Fetches real-time exchange rates from the Frankfurter API  
+- Displays historical exchange rate trends using FlChart
+- User-friendly minimal interface
+- Supports dark mode for better readability  
+- Allows users to swap source and destination currencies
+
+## Tech Stack  
+
+- Flutter  
+- Dart - Programming language  
+- Frankfurter API - Fetches exchange rates  
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to get the app up and running:
 
-A few resources to get you started if this is your first Flutter project:
+  1. Clone the repository: git clone https://github.com/shreyaax30/Currency-Converter.git
+  2. Install dependencies: flutter pub get
+  3. Run the app: flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## API Integration
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app fetches exchange rates from the Frankfurter API. This API don't require API key.
